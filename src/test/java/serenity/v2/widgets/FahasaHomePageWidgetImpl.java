@@ -31,7 +31,7 @@ public class FahasaHomePageWidgetImpl extends WidgetObjectImpl implements Fahasa
 
     @Override
     public void type_keyword(String keyword) {
-        this.getElement("//*[@id='close-popup']").click();
+      //  this.getElement("//*[@id='close-popup']").click();
         this.getElement(SEARCH_BOX).click();
         this.getElement(SEARCH_BOX).type(keyword);
 
