@@ -15,7 +15,7 @@ pipeline {
                        allowMissing: false, 
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
-                       reportDir: 'target/surefire-reports/', 
+                       reportDir: 'target/site/serenity/', 
                        reportFiles: 'index.html', 
                        reportName: 'HTML Report', 
                        reportTitles: '', 
