@@ -13,7 +13,7 @@ import static org.openqa.selenium.By.xpath;
 
 public class FahasaHomePageWidgetImpl extends WidgetObjectImpl implements FahasaHomePageWidget {
     static final String SEARCH_URL = "https://www.fahasa.com/";
-    public static final String SEARCH_BOX = "//input[@id='search_desktop']";
+    public static final String SEARCH_BOX = "//div[@class='form-search']/input";
     public static final String SEARCH_BUTTON = "//span[@class='button-search fa fa-search']";
 
     public FahasaHomePageWidgetImpl(PageObject page, ElementLocator locator, WebElement webElement, long timeoutInMilliseconds) {
